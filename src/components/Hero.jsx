@@ -30,7 +30,7 @@ export default function Hero() {
       
       {/* Decorative line (hide on small screens) */}
       <svg
-        className="hidden md:block absolute left-[-20px] top-[60px] pointer-events-none"
+        className="hidden md:block mx-4 absolute left-[-5px] top-[60px] pointer-events-none"
         width="60"
         height="180"
         viewBox="0 0 70 180"
@@ -39,6 +39,20 @@ export default function Hero() {
         <path
           d="M40 10 C80 40, 60 80, 20 120 C-10 150, 40 170, 20 180"
           stroke="#e8453c"
+          strokeWidth="2.5"
+          strokeLinecap="round"
+        />
+      </svg>
+      <svg
+        className="hidden md:block absolute left-[-5px] top-[60px] pointer-events-none"
+        width="60"
+        height="180"
+        viewBox="0 0 70 180"
+        fill="none"
+      >
+        <path
+          d="M40 10 C80 40, 60 80, 20 120 C-10 150, 40 170, 20 180"
+          stroke="black"
           strokeWidth="2.5"
           strokeLinecap="round"
         />
