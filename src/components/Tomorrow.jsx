@@ -48,7 +48,7 @@ export default function Tomorrow() {
           {/* Image */}
           <div className="w-[220px] h-[220px] md:w-[300px] md:h-[300px] rounded-full overflow-hidden relative z-[2] shadow-[0_20px_60px_rgba(0,0,0,0.15)]">
             <img
-              src="src/assets/img-01.png"
+              src="/img-01.png"
               alt="meeting"
               className="w-full h-full object-cover"
             />

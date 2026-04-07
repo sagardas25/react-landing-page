@@ -16,7 +16,7 @@ export default function Progress() {
           {/* Image */}
           <div className="w-[220px] h-[220px] md:w-[300px] md:h-[300px] rounded-full overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.15)] relative z-[2]">
             <img
-              src="src/assets/img-02.png"
+              src="/img-02.png"
               alt="team working"
               className="w-full h-full object-cover"
             />
