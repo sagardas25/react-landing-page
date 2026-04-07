@@ -1,4 +1,3 @@
-
 import AvatarCluster from "./AvatarCluster";
 
 const avatars = [
@@ -27,7 +26,6 @@ const avatars = [
 export default function Hero() {
   return (
     <section className="relative mx-auto max-w-screen-xl px-4 pt-16 pb-12 md:px-10 md:pt-20 md:pb-16 overflow-hidden">
-      
       {/* Decorative line (hide on small screens) */}
       <svg
         className="hidden md:block mx-4 absolute left-[-5px] top-[60px] pointer-events-none"
@@ -61,7 +59,6 @@ export default function Hero() {
       {/* Heading */}
       <div className="text-center mb-10 md:mb-16">
         <h1 className="heading-display text-[clamp(32px,6vw,64px)] leading-tight mb-4">
-          
           <span>
             The{" "}
             <span className="underline decoration-wavy decoration-orange-400">
@@ -71,9 +68,11 @@ export default function Hero() {
           </span>
 
           <span className="block">
-            doers were Ch
-            <span className="bg-[#f5a8c8] inline-block rounded-full">
-              anging
+            doers were{" "}
+            <span className="bg-transparent inline-block rounded-full">
+              Ch
+              <span className="bg-[#f5a8c8] inline-block rounded-full">anging</span>
+              
             </span>
           </span>
 
@@ -87,8 +86,9 @@ export default function Hero() {
         </h1>
 
         <p className="text-[14px] md:text-[13px] text-[#666] leading-6 md:leading-7 max-w-[600px] mx-auto">
-          We are a team of strategists, designers, communicators, and researchers.
-          Together, we believe that progress only happens when you refuse to play things safe.
+          We are a team of strategists, designers, communicators, and
+          researchers. Together, we believe that progress only happens when you
+          refuse to play things safe.
         </p>
       </div>
 
